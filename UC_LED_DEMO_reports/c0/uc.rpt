@@ -1,0 +1,508 @@
+
+Warning-[UNKWN_IGOPTS] Unknown option(s) ignored
+  Unknown option(s) '-top ' passed to 'vlogan' command line is(are) ignored.
+  Please make sure that there are no typos in the option(s) passed, or the 
+  options are only applicable to VCS at elaboration step. Also check 'vlogan 
+  -help' for supported options. 
+
+                         Chronologic VCS (TM)
+Version Q-2020.03-SP2-10-T-20220405_Full64 -- Thu Apr 20 11:54:44 2023
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file './src/top.v'
+CPU time: .195 seconds to compile
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-debug_pp' will be deprecated in a future release.  Please use 
+  '-debug_acc+pp+dmptf -debug_region+cell+encrypt' instead.
+
+Doing common elaboration 
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-debug_pp' will be deprecated in a future release.  Please use 
+  '-debug_acc+pp+dmptf -debug_region+cell+encrypt' instead.
+
+                         Chronologic VCS (TM)
+Version Q-2020.03-SP2-10-T-20220405_Full64 -- Thu Apr 20 11:54:46 2023
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+UNIZFE: Got HW top: top
+Top Level Modules:
+       top
+No TimeScale specified
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 6
+"count4 u0( .A (D[0]),  .B (D[1]),  .C (D[2]),  .D (D[3]),  .out (out[0]));"
+  The following 4-bit expression is connected to 3-bit port "out" of module 
+  "count4", instance "u0".
+  Expression: out[0]
+  Instantiated module defined at: "./src/top.v", 34
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 7
+"count4 u1( .A (D[4]),  .B (D[5]),  .C (D[6]),  .D (D[7]),  .out (out[1]));"
+  The following 4-bit expression is connected to 3-bit port "out" of module 
+  "count4", instance "u1".
+  Expression: out[1]
+  Instantiated module defined at: "./src/top.v", 34
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 9
+"count4 u2( .A (D[8]),  .B (D[9]),  .C (D[10]),  .D (D[11]),  .out (out[2]));"
+  The following 4-bit expression is connected to 3-bit port "out" of module 
+  "count4", instance "u2".
+  Expression: out[2]
+  Instantiated module defined at: "./src/top.v", 34
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 10
+"count4 u3( .A (D[12]),  .B (D[13]),  .C (D[14]),  .D (D[15]),  .out (out[3]));"
+  The following 4-bit expression is connected to 3-bit port "out" of module 
+  "count4", instance "u3".
+  Expression: out[3]
+  Instantiated module defined at: "./src/top.v", 34
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 12
+"count4 u4( .A (D[16]),  .B (D[17]),  .C (D[18]),  .D (D[19]),  .out (out[4]));"
+  The following 4-bit expression is connected to 3-bit port "out" of module 
+  "count4", instance "u4".
+  Expression: out[4]
+  Instantiated module defined at: "./src/top.v", 34
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 13
+"count4 u5( .A (D[20]),  .B (D[21]),  .C (D[22]),  .D (D[23]),  .out (out[5]));"
+  The following 4-bit expression is connected to 3-bit port "out" of module 
+  "count4", instance "u5".
+  Expression: out[5]
+  Instantiated module defined at: "./src/top.v", 34
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 15
+"count4 u6( .A (D[24]),  .B (D[25]),  .C (D[26]),  .D (D[27]),  .out (out[6]));"
+  The following 4-bit expression is connected to 3-bit port "out" of module 
+  "count4", instance "u6".
+  Expression: out[6]
+  Instantiated module defined at: "./src/top.v", 34
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 16
+"count4 u7( .A (D[28]),  .B (D[29]),  .C (D[30]),  .D (D[31]),  .out (out[7]));"
+  The following 4-bit expression is connected to 3-bit port "out" of module 
+  "count4", instance "u7".
+  Expression: out[7]
+  Instantiated module defined at: "./src/top.v", 34
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 19
+"RCA u8( .a (out[0]),  .b (out[1]),  .sum (sum[0]));"
+  The following 4-bit expression is connected to 5-bit port "a" of module 
+  "RCA", instance "u8".
+  Expression: out[0]
+  Instantiated module defined at: "./src/top.v", 72
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 19
+"RCA u8( .a (out[0]),  .b (out[1]),  .sum (sum[0]));"
+  The following 4-bit expression is connected to 5-bit port "b" of module 
+  "RCA", instance "u8".
+  Expression: out[1]
+  Instantiated module defined at: "./src/top.v", 72
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 20
+"RCA u9( .a (out[2]),  .b (out[3]),  .sum (sum[1]));"
+  The following 4-bit expression is connected to 5-bit port "a" of module 
+  "RCA", instance "u9".
+  Expression: out[2]
+  Instantiated module defined at: "./src/top.v", 72
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 20
+"RCA u9( .a (out[2]),  .b (out[3]),  .sum (sum[1]));"
+  The following 4-bit expression is connected to 5-bit port "b" of module 
+  "RCA", instance "u9".
+  Expression: out[3]
+  Instantiated module defined at: "./src/top.v", 72
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 21
+"RCA u10( .a (out[4]),  .b (out[5]),  .sum (sum[2]));"
+  The following 4-bit expression is connected to 5-bit port "a" of module 
+  "RCA", instance "u10".
+  Expression: out[4]
+  Instantiated module defined at: "./src/top.v", 72
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 21
+"RCA u10( .a (out[4]),  .b (out[5]),  .sum (sum[2]));"
+  The following 4-bit expression is connected to 5-bit port "b" of module 
+  "RCA", instance "u10".
+  Expression: out[5]
+  Instantiated module defined at: "./src/top.v", 72
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 22
+"RCA u11( .a (out[6]),  .b (out[7]),  .sum (sum[3]));"
+  The following 4-bit expression is connected to 5-bit port "a" of module 
+  "RCA", instance "u11".
+  Expression: out[6]
+  Instantiated module defined at: "./src/top.v", 72
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 22
+"RCA u11( .a (out[6]),  .b (out[7]),  .sum (sum[3]));"
+  The following 4-bit expression is connected to 5-bit port "b" of module 
+  "RCA", instance "u11".
+  Expression: out[7]
+  Instantiated module defined at: "./src/top.v", 72
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 24
+"RCA u12( .a (sum[0]),  .b (sum[1]),  .sum (sum[4]));"
+  The following 6-bit expression is connected to 5-bit port "a" of module 
+  "RCA", instance "u12".
+  Expression: sum[0]
+  Instantiated module defined at: "./src/top.v", 72
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 24
+"RCA u12( .a (sum[0]),  .b (sum[1]),  .sum (sum[4]));"
+  The following 6-bit expression is connected to 5-bit port "b" of module 
+  "RCA", instance "u12".
+  Expression: sum[1]
+  Instantiated module defined at: "./src/top.v", 72
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 25
+"RCA u13( .a (sum[2]),  .b (sum[3]),  .sum (sum[5]));"
+  The following 6-bit expression is connected to 5-bit port "a" of module 
+  "RCA", instance "u13".
+  Expression: sum[2]
+  Instantiated module defined at: "./src/top.v", 72
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 25
+"RCA u13( .a (sum[2]),  .b (sum[3]),  .sum (sum[5]));"
+  The following 6-bit expression is connected to 5-bit port "b" of module 
+  "RCA", instance "u13".
+  Expression: sum[3]
+  Instantiated module defined at: "./src/top.v", 72
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 26
+"RCA u14( .a (sum[4]),  .b (sum[5]),  .sum (C));"
+  The following 6-bit expression is connected to 5-bit port "a" of module 
+  "RCA", instance "u14".
+  Expression: sum[4]
+  Instantiated module defined at: "./src/top.v", 72
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 26
+"RCA u14( .a (sum[4]),  .b (sum[5]),  .sum (C));"
+  The following 6-bit expression is connected to 5-bit port "b" of module 
+  "RCA", instance "u14".
+  Expression: sum[5]
+  Instantiated module defined at: "./src/top.v", 72
+  Use +lint=PCWM for more details.
+
+
+Warning-[PCWM-W] Port connection width mismatch
+./src/top.v, 78
+"FA u1( .A (a[0]),  .B (b[0]),  .Cin (0),  .Cout (cout_w1),  .Sum (sum[0]));"
+  The following 32-bit expression is connected to 1-bit port "Cin" of module 
+  "FA", instance "u1".
+  Expression: 0
+  Instantiated module defined at: "./src/top.v", 62
+  Use +lint=PCWM for more details.
+
+Info: Invoking Simon...
+[UFE_FLOW]: RhinoDB Rtl Population based on design traversal started
+[UFE_FLOW]: Trying to load NameDB library without path: libNameDB.so
+Info: Simon VCS Start
+                                SIMON
+Version Q-2020.03-SP2-10-T-20220405_Full64 -- Thu Apr 20 11:54:47 2023
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Note-[SM_NATIVE_FORCE_ON] Native force is ON
+  Simon native force/release handling is ON
+
+
+Note-[SM_PARALLEL_RUN] Parallel run
+  Forked '5' child processes with process ids '16582 16583 16584 16585 16586'
+  to perform synthesis of total '5' modules in parallel.
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: top Parameterized Name: top
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: count4 Parameterized Name: count4
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: RCA Parameterized Name: RCA
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: FA Parameterized Name: FA
+
+
+Note-[SM_PME] Processing Module/Entity
+  Processing: HA Parameterized Name: HA
+
+
+Note-[SM_IIF] Instance Info
+  Instance Count : module 'top' has 15 instances
+  
+
+
+Note-[SM_IIF] Instance Info
+  Instance Count : module 'RCA' has 5 instances
+  
+
+
+Note-[SM_IIF] Instance Info
+  Instance Count : module 'FA' has 2 instances
+  
+
+
+Note-[SM_FNL] Fast netlist optimization
+  Using fast processing since this is a simple netlist
+  
+
+
+Note-[SM_FNL] Fast netlist optimization
+  Using fast processing since this is a simple netlist
+  
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '4' with process id '16586'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.01 sec
+  SIMON Child Current Memory  : 369 MB
+  SIMON Child Peak Memory     : 370 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 20 11:54:47 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '3' with process id '16585'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.01 sec
+  SIMON Child Current Memory  : 369 MB
+  SIMON Child Peak Memory     : 370 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 20 11:54:47 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '2' with process id '16584'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.01 sec
+  SIMON Child Wall-Clock Time : 0.02 sec
+  SIMON Child Current Memory  : 369 MB
+  SIMON Child Peak Memory     : 369 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 20 11:54:47 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '1' with process id '16583'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.01 sec
+  SIMON Child Wall-Clock Time : 0.02 sec
+  SIMON Child Current Memory  : 369 MB
+  SIMON Child Peak Memory     : 370 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 20 11:54:47 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '0' with process id '16582'
+  is done with synthesis of total '1' modules
+  SIMON Child CPU Time        : 0.02 sec
+  SIMON Child Wall-Clock Time : 0.04 sec
+  SIMON Child Current Memory  : 370 MB
+  SIMON Child Peak Memory     : 370 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 20 11:54:47 2023
+  .
+
+
+Note-[SM_PF] Processing finished
+  Processing of all modules finished
+
+
+Note-[SM_PARALLEL_RUN] Parallel run
+  Forked '5' child processes with process ids '16587 16588 16589 16590 16591'
+  to perform post-processing optimizations of total '5' modules in parallel.
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: count4
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: HA
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: top
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: FA
+
+
+Note-[SM_POME] Processing Module/Entity
+  Performing post-processing optimizations on Module/Entity: RCA
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '1' with process id '16588'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.01 sec
+  SIMON Child Current Memory  : 369 MB
+  SIMON Child Peak Memory     : 369 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 20 11:54:47 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '0' with process id '16587'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.01 sec
+  SIMON Child Current Memory  : 369 MB
+  SIMON Child Peak Memory     : 369 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 20 11:54:47 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '2' with process id '16589'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.01 sec
+  SIMON Child Current Memory  : 369 MB
+  SIMON Child Peak Memory     : 369 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 20 11:54:47 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '3' with process id '16590'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.01 sec
+  SIMON Child Current Memory  : 369 MB
+  SIMON Child Peak Memory     : 369 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 20 11:54:47 2023
+  .
+
+
+Note-[SM_CHLDRUN_DONE] Child process run completed
+  Child process number '4' with process id '16591'
+  is done with post-processing optimizations of total '1' modules
+  SIMON Child CPU Time        : 0.00 sec
+  SIMON Child Wall-Clock Time : 0.01 sec
+  SIMON Child Current Memory  : 369 MB
+  SIMON Child Peak Memory     : 369 MB
+  SIMON Distribution          : 0.00,0.00,0.00,0.00 sec
+  End time                    : Thu Apr 20 11:54:47 2023
+  .
+
+
+Note-[SM_POF] Processing finished
+  Post-processing optimizations of all modules finished
+
+=======================================================
+VCS pre-synth CPU Time        : 0.48 sec
+VCS pre-synth Wall-Clock Time : 1.00 sec
+VCS pre-synth Current Memory  : 367 MB
+SIMON Master CPU Time         : 0.05 sec
+SIMON Total  CPU Time         : 0.26 sec
+SIMON Master Wall-Clock Time  : 0.18 sec
+SIMON Master Current Memory   : 370 MB
+SIMON Master Peak Memory      : 370 MB
+SIMON CGroup Memory           : 414 MB
+SIMON Distribution            : 0.00,0.00,0.00,0.00 sec
+=======================================================
+Info: Simon VCS Finished
+Info: Simon call complete 
+Info: Exiting after Simon Analysis 
+CPU time: .848 seconds to compile

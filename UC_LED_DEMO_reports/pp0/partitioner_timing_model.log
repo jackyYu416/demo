@@ -1,0 +1,48 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS release 6.10 (Final)
+Hostname: ws32
+max virtual memory: unlimited (bytes)
+max user processes: 1024
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/m110/m110063541/synos/Lab1_PCflow/UC_LED_DEMO/|pp0
+Synopsys ProtoCompiler Partitioner/Router, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+
+@N: AP152 |(Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s)
+Timing graph for view HA
+   Nodes 4 (Constrained: 0), Edges 4, Dissolve Edges 10
+   Build Time 0.000899174
+Timing graph for view FA
+   Nodes 5 (Constrained: 0), Edges 6, Dissolve Edges 18
+   Build Time 0.000529346
+Timing graph for view FA_0
+   Nodes 5 (Constrained: 0), Edges 4, Dissolve Edges 8
+   Build Time 0.000272926
+Timing graph for view RCA
+   Nodes 16 (Constrained: 0), Edges 40, Dissolve Edges 48
+   Build Time 0.000729477
+Timing graph for view RCA_1
+   Nodes 16 (Constrained: 0), Edges 28, Dissolve Edges 38
+   Build Time 0.000637992
+Timing graph for view RCA_0
+   Nodes 16 (Constrained: 0), Edges 18, Dissolve Edges 28
+   Build Time 0.000520333
+Timing graph for view count4
+   Nodes 7 (Constrained: 0), Edges 12, Dissolve Edges 181
+   Build Time 0.00267542
+Timing graph for view top
+   Nodes 40 (Constrained: 0), Edges 38, Dissolve Edges 38
+   Build Time 0.00120639
+@N: MF848 |Writing compressed timing models.
+@N: AP152 |(Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s)
+Complete

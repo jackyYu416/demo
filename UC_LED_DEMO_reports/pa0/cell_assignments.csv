@@ -1,0 +1,21 @@
+Instructions:
+  1. Load this file into Excel(tm)
+  2. Select line 6
+  3. Select Data->Filter
+  4. Filter on columns L0 and to the right to explore assignments for hierarchical modules
+NAME,LUT,PINS,BIN,L0
+u14,10,16,FB1.uB,u14
+u12,7,14,FB1.uB,u12
+u13,7,14,FB1.uB,u13
+u8,3,11,FB1.uB,u8
+u9,3,11,FB1.uB,u9
+u10,3,12,FB1.uB,u10
+u11,3,12,FB1.uB,u11
+u3,1,7,FB1.uA,u3
+u4,1,7,FB1.uA,u4
+u2,1,7,FB1.uA,u2
+u7,1,7,FB1.uA,u7
+u5,1,7,FB1.uA,u5
+u6,1,7,FB1.uA,u6
+u1,1,7,FB1.uA,u1
+u0,1,7,FB1.uA,u0

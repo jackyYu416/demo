@@ -1,0 +1,175 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: HAPS (R) ProtoCompiler 100
+Build: R-2020.12-SP1-1
+Install: /usr/cadtool/csr5306/synopsys/protocomp/R-2020.12-SP1-1
+OS: CentOS release 6.10 (Final)
+Hostname: ws32
+max virtual memory: unlimited (bytes)
+max user processes: 1024
+max stack size: 10485760 (bytes)
+
+
+Database state : /home/m110/m110063541/synos/Lab1_PCflow/UC_LED_DEMO/|sr0
+Synopsys ProtoCompiler Partitioner/Router, Version map202012pcp4, Build 193R, Built Apr  8 2022 21:27:09, @4216327
+
+
+To see more or fewer paths in this report, use option '-report_timing_paths <count>'
+
+Start points with multiple hops: 32
+End points with multiple hops: 6
+Printing up to 10 paths
+
+Path #1 through net C[5]
+Hops  Type*    Bin/TDM            Ratio  Clock/Cell/Net  Cell_Type  
+------------------------------------------------------------------
+0     Port     TOP_IO_HT3_FB1_B5         D[16]                      
+      Net(DP)                     1      D[16]                      
+0              FB1.uB                                               
+      Net(D)                      1      D_aptn_ft[16]              
+1              FB1.uA                                               
+      Net                         1      out[14]                    
+2              FB1.uB                                               
+      Net(DP)                     1      C[5]                       
+2     Port     TOP_IO_HT3_FB1_B5         C[5]                       
+==================================================================
+     *Net Flags: A=AsynchReset  B=Bidir/Tristate  C=Clock  D=Direct  F=Feedthrough  P=PortNet 
+
+Path #2 through net out[22]
+Hops  Type*    Bin/TDM            Ratio  Clock/Cell/Net  Cell_Type  
+------------------------------------------------------------------
+0     Port     TOP_IO_HT3_FB1_B5         D[9]                       
+      Net(DP)                     1      D[9]                       
+0              FB1.uB                                               
+      Net(D)                      1      D_aptn_ft[9]               
+1              FB1.uA                                               
+      Net                         1      out[22]                    
+2              FB1.uB                                               
+      Net(DP)                     1      C[5]                       
+2     Port     TOP_IO_HT3_FB1_B5         C[5]                       
+==================================================================
+     *Net Flags: A=AsynchReset  B=Bidir/Tristate  C=Clock  D=Direct  F=Feedthrough  P=PortNet 
+
+Path #3 through net out[10]
+Hops  Type*    Bin/TDM            Ratio  Clock/Cell/Net  Cell_Type  
+------------------------------------------------------------------
+0     Port     TOP_IO_HT3_FB1_B5         D[22]                      
+      Net(DP)                     1      D[22]                      
+0              FB1.uB                                               
+      Net(D)                      1      D_aptn_ft[22]              
+1              FB1.uA                                               
+      Net                         1      out[10]                    
+2              FB1.uB                                               
+      Net(DP)                     1      C[5]                       
+2     Port     TOP_IO_HT3_FB1_B5         C[5]                       
+==================================================================
+     *Net Flags: A=AsynchReset  B=Bidir/Tristate  C=Clock  D=Direct  F=Feedthrough  P=PortNet 
+
+Path #4 through net out[26]
+Hops  Type*    Bin/TDM            Ratio  Clock/Cell/Net  Cell_Type  
+------------------------------------------------------------------
+0     Port     TOP_IO_HT3_FB1_B5         D[4]                       
+      Net(DP)                     1      D[4]                       
+0              FB1.uB                                               
+      Net(D)                      1      D_aptn_ft[4]               
+1              FB1.uA                                               
+      Net                         1      out[26]                    
+2              FB1.uB                                               
+      Net(DP)                     1      C[5]                       
+2     Port     TOP_IO_HT3_FB1_B5         C[5]                       
+==================================================================
+     *Net Flags: A=AsynchReset  B=Bidir/Tristate  C=Clock  D=Direct  F=Feedthrough  P=PortNet 
+
+Path #5 through net out[30]
+Hops  Type*    Bin/TDM            Ratio  Clock/Cell/Net  Cell_Type  
+------------------------------------------------------------------
+0     Port     TOP_IO_HT3_FB1_B5         D[0]                       
+      Net(DP)                     1      D[0]                       
+0              FB1.uB                                               
+      Net(D)                      1      D_aptn_ft[0]               
+1              FB1.uA                                               
+      Net                         1      out[30]                    
+2              FB1.uB                                               
+      Net(DP)                     1      C[5]                       
+2     Port     TOP_IO_HT3_FB1_B5         C[5]                       
+==================================================================
+     *Net Flags: A=AsynchReset  B=Bidir/Tristate  C=Clock  D=Direct  F=Feedthrough  P=PortNet 
+
+Path #6 through net D_aptn_ft[17]
+Hops  Type*    Bin/TDM            Ratio  Clock/Cell/Net  Cell_Type  
+------------------------------------------------------------------
+0     Port     TOP_IO_HT3_FB1_B5         D[17]                      
+      Net(DP)                     1      D[17]                      
+0              FB1.uB                                               
+      Net(D)                      1      D_aptn_ft[17]              
+1              FB1.uA                                               
+      Net                         1      out[14]                    
+2              FB1.uB                                               
+      Net(DP)                     1      C[5]                       
+2     Port     TOP_IO_HT3_FB1_B5         C[5]                       
+==================================================================
+     *Net Flags: A=AsynchReset  B=Bidir/Tristate  C=Clock  D=Direct  F=Feedthrough  P=PortNet 
+
+Path #7 through net out[18]
+Hops  Type*    Bin/TDM            Ratio  Clock/Cell/Net  Cell_Type  
+------------------------------------------------------------------
+0     Port     TOP_IO_HT3_FB1_B5         D[13]                      
+      Net(DP)                     1      D[13]                      
+0              FB1.uB                                               
+      Net(D)                      1      D_aptn_ft[13]              
+1              FB1.uA                                               
+      Net                         1      out[18]                    
+2              FB1.uB                                               
+      Net(DP)                     1      C[5]                       
+2     Port     TOP_IO_HT3_FB1_B5         C[5]                       
+==================================================================
+     *Net Flags: A=AsynchReset  B=Bidir/Tristate  C=Clock  D=Direct  F=Feedthrough  P=PortNet 
+
+Path #8 through net D_aptn_ft[2]
+Hops  Type*    Bin/TDM            Ratio  Clock/Cell/Net  Cell_Type  
+------------------------------------------------------------------
+0     Port     TOP_IO_HT3_FB1_B5         D[2]                       
+      Net(DP)                     1      D[2]                       
+0              FB1.uB                                               
+      Net(D)                      1      D_aptn_ft[2]               
+1              FB1.uA                                               
+      Net                         1      out[30]                    
+2              FB1.uB                                               
+      Net(DP)                     1      C[5]                       
+2     Port     TOP_IO_HT3_FB1_B5         C[5]                       
+==================================================================
+     *Net Flags: A=AsynchReset  B=Bidir/Tristate  C=Clock  D=Direct  F=Feedthrough  P=PortNet 
+
+Path #9 through net D_aptn_ft[10]
+Hops  Type*    Bin/TDM            Ratio  Clock/Cell/Net  Cell_Type  
+------------------------------------------------------------------
+0     Port     TOP_IO_HT3_FB1_B5         D[10]                      
+      Net(DP)                     1      D[10]                      
+0              FB1.uB                                               
+      Net(D)                      1      D_aptn_ft[10]              
+1              FB1.uA                                               
+      Net                         1      out[22]                    
+2              FB1.uB                                               
+      Net(DP)                     1      C[5]                       
+2     Port     TOP_IO_HT3_FB1_B5         C[5]                       
+==================================================================
+     *Net Flags: A=AsynchReset  B=Bidir/Tristate  C=Clock  D=Direct  F=Feedthrough  P=PortNet 
+
+Path #10 through net C[1]
+Hops  Type*    Bin/TDM            Ratio  Clock/Cell/Net  Cell_Type  
+------------------------------------------------------------------
+0     Port     TOP_IO_HT3_FB1_B5         D[30]                      
+      Net(DP)                     1      D[30]                      
+0              FB1.uB                                               
+      Net(D)                      1      D_aptn_ft[30]              
+1              FB1.uA                                               
+      Net                         1      out[1]                     
+2              FB1.uB                                               
+      Net(DP)                     1      C[1]                       
+2     Port     TOP_IO_HT3_FB1_B5         C[1]                       
+==================================================================
+     *Net Flags: A=AsynchReset  B=Bidir/Tristate  C=Clock  D=Direct  F=Feedthrough  P=PortNet 
