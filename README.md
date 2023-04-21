@@ -16,7 +16,7 @@
 
 <img src="https://user-images.githubusercontent.com/117829285/233331958-fc7aaeb7-6025-44f4-907d-7d145ac3888c.png" width="400">
 
-- timing report
+## timing report
 
 <img src="https://user-images.githubusercontent.com/117829285/233599415-8f5fc844-7226-4f7c-b9ce-0f3eac25873b.png" width="400">
 
@@ -26,7 +26,7 @@
 
 <img src="https://user-images.githubusercontent.com/117829285/233600104-4d5fa337-8c4e-4a66-9f47-f66f99dff5fa.png" width="400">
 
-- Conclusion
+## Conclusion
 
 透過final project我更熟悉HAPS的流程了，邊做project透過邊翻書，就如同再複習許多遍
 但還是有我無法解決的一些問題!例如某寫檔案要如何變更才能讓我的電路能跑過protocompiler，因此我也改變做其他的電路。
