@@ -16,5 +16,14 @@
 
 <img src="https://user-images.githubusercontent.com/117829285/233331958-fc7aaeb7-6025-44f4-907d-7d145ac3888c.png" width="400">
 
+- timing report
+
+<img src="https://user-images.githubusercontent.com/117829285/233599415-8f5fc844-7226-4f7c-b9ce-0f3eac25873b.png" width="400">
+
+<img src="https://user-images.githubusercontent.com/117829285/233599601-1f8e6d49-f224-408e-ab95-1c8df639cf07.png" width="400">
+
+<img src="https://user-images.githubusercontent.com/117829285/233599955-8c1d29f4-ccf3-4f9c-b354-25b35541178c.png" width="400">
+
+<img src="https://user-images.githubusercontent.com/117829285/233600104-4d5fa337-8c4e-4a66-9f47-f66f99dff5fa.png" width="400">
 
 
