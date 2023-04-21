@@ -26,4 +26,9 @@
 
 <img src="https://user-images.githubusercontent.com/117829285/233600104-4d5fa337-8c4e-4a66-9f47-f66f99dff5fa.png" width="400">
 
+- Conclusion
+透過final project我更熟悉HAPS的流程了，邊做project透過邊翻書，就如同再複習許多遍
+但還是有我無法解決的一些問題!例如某寫檔案要如何變更才能讓我的電路能跑過protocompiler，因此我也改變做其他的電路。
+我的結論還是如果要對HAPS熟悉還是需要不斷的去使用改軟體!但由於這次projcet我沒有跑vitis，因此沒辦法對vitis有過多的感想
+新思讚!
 
